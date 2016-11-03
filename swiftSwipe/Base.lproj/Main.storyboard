@@ -33,22 +33,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="es1-EO-Y8j" userLabel="Swipe Right">
                     <connections>
-                        <segue destination="VUf-bz-06G" kind="custom" id="5Lg-Jw-zEc"/>
+                        <segue destination="VUf-bz-06G" kind="custom" identifier="LeftToRight" customClass="LeftToRight" customModule="swiftSwipe" customModuleProvider="target" id="5Lg-Jw-zEc"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="left" id="502-vf-f3Y" userLabel="Swipe Left">
                     <connections>
-                        <segue destination="VUf-bz-06G" kind="custom" id="E5D-7K-MIR"/>
+                        <segue destination="VUf-bz-06G" kind="custom" identifier="RightToLeft" customClass="RightToLeft" customModule="swiftSwipe" customModuleProvider="target" id="E5D-7K-MIR"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="down" id="mpU-5F-Ebe" userLabel="Swipe Down">
                     <connections>
-                        <segue destination="VUf-bz-06G" kind="custom" id="OHo-JA-iDl"/>
+                        <segue destination="VUf-bz-06G" kind="custom" identifier="TopToBottom" customClass="TopToBottom" customModule="swiftSwipe" customModuleProvider="target" id="OHo-JA-iDl"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="up" id="8dW-1s-4EM" userLabel="Swipe Up">
                     <connections>
-                        <segue destination="VUf-bz-06G" kind="custom" id="fs8-IU-Dib"/>
+                        <segue destination="VUf-bz-06G" kind="custom" identifier="BottomToTop" customClass="BottomToTop" customModule="swiftSwipe" customModuleProvider="target" id="fs8-IU-Dib"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
@@ -77,22 +77,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sAI-1r-G4e" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="561-ot-e9a" userLabel="Swipe Right">
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="custom" id="cKa-Sr-OpQ"/>
+                        <segue destination="BYZ-38-t0r" kind="custom" identifier="LeftToRight" customClass="LeftToRight" customModule="swiftSwipe" customModuleProvider="target" id="cKa-Sr-OpQ"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="left" id="7RO-al-G8x" userLabel="Swipe Left">
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="custom" id="aso-oT-LtW"/>
+                        <segue destination="BYZ-38-t0r" kind="custom" identifier="RightToLeft" customClass="RightToLeft" customModule="swiftSwipe" customModuleProvider="target" id="aso-oT-LtW"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="down" id="Fkp-bw-IVo" userLabel="Swipe Down">
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="custom" id="1Fg-jt-H0v"/>
+                        <segue destination="BYZ-38-t0r" kind="custom" identifier="TopToBottom" customClass="TopToBottom" customModule="swiftSwipe" customModuleProvider="target" id="1Fg-jt-H0v"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="up" id="njd-Ig-xQ1" userLabel="Swipe Up">
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="custom" id="qN5-Jy-f7G"/>
+                        <segue destination="BYZ-38-t0r" kind="custom" identifier="BottomToTop" customClass="BottomToTop" customModule="swiftSwipe" customModuleProvider="target" id="qN5-Jy-f7G"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
@@ -100,7 +100,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="OHo-JA-iDl"/>
+        <segue reference="fs8-IU-Dib"/>
         <segue reference="qN5-Jy-f7G"/>
     </inferredMetricsTieBreakers>
 </document>
